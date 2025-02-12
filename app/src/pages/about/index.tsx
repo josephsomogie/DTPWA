@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <div
-      className={`flex flex-col w-screen h-screen items-center justify-center font-mono`}
+      className={`flex flex-col w-screen h-screen items-center justify-center font-mono bg-gradient-to-r from-neutral-900 via-neutral-950 to-neutral-900`}
     >
       <div className="font-mono text-4xl flex w-full items-center justify-center bg-gradient-to-r from-cyan-100 via-sky-300 to-blue-800 bg-clip-text text-transparent">
-        <p>About DTP</p>
+        <p className='font-mono'>About DTP</p>
       </div>
       <div className="w-1/2">
         <p className="text-xl italic mt-2">
