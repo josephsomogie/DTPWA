@@ -8,13 +8,7 @@ export default function About() {
       </div>
       <div className="w-1/2">
         <p className="text-xl italic mt-2">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+        The Decentralized Transfer Protocol (DTP) is designed to help applications decentralize user data storage, thereby reducing the operational costs of running web applications and enhancing user privacy. By decentralizing data storage, DTP aims to distribute the responsibility of data management across multiple nodes, minimizing reliance on centralized servers. This approach not only lowers infrastructure expenses but also bolsters data security by mitigating single points of failure. Additionally, DTP emphasizes stringent privacy standards, ensuring that user data remains confidential and protected throughout its lifecycle.
         </p>
       </div>
     </div>

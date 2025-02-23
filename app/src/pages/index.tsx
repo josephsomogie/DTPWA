@@ -25,10 +25,14 @@ export default function Home() {
         className="hover:outline hover:outline-cyan-200 p-1 rounded cursor-pointer bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent">
           Installation
         </p>
-        <p className="hover:outline hover:outline-cyan-200 p-1 rounded cursor-pointer bg-gradient-to-r from-cyan-100 to-blue-300 bg-clip-text text-transparent">
+        <p 
+        onClick={() => router.push("/documentation")}
+        className="hover:outline hover:outline-cyan-200 p-1 rounded cursor-pointer bg-gradient-to-r from-cyan-100 to-blue-300 bg-clip-text text-transparent">
           Documentation
         </p>
-        <p className="hover:outline hover:outline-cyan-200 p-1 rounded cursor-pointer bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent">
+        <p 
+        onClick={() => router.push("/demo")}
+        className="hover:outline hover:outline-cyan-200 p-1 rounded cursor-pointer bg-gradient-to-r from-cyan-300 to-blue-600 bg-clip-text text-transparent">
           Online Demo
         </p>
       </div>
