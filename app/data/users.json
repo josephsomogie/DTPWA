@@ -10,5 +10,9 @@
   {
     "email": "example@test.com",
     "password": "$2b$10$PxVp6chVTBxfdGyXS5Tixe.teTnQpmZvJ2ui3/QyGbFpDg2c.j3/K"
+  },
+  {
+    "email": "test@test.com",
+    "password": "$2b$10$c3PqVZ0HomShudTpXYlbcuRvq3HgWOqXRd15fNPU8rNQ0LGa3.ZXW"
   }
 ]
